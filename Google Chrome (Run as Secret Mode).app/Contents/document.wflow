@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>417</string>
+	<string>409.2</string>
 	<key>AMApplicationVersion</key>
-	<string>2.6</string>
+	<string>2.5</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -59,13 +59,13 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>open -a "Google Chrome" --args --incognito</string>
+					<string>open -n -a "Google Chrome" --args --incognito</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
 					<integer>0</integer>
 					<key>shell</key>
-					<string>/bin/bash</string>
+					<string>/bin/tcsh</string>
 					<key>source</key>
 					<string></string>
 				</dict>
@@ -84,7 +84,7 @@
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>1B4347FB-7FA3-4C06-BEC6-43F909058885</string>
+				<string>A7461FDB-C81F-4AEB-BFD0-01518455D0C9</string>
 				<key>Keywords</key>
 				<array>
 					<string>シェル</string>
@@ -94,9 +94,9 @@
 					<string>UNIX</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>F932BDAD-216B-4C90-9AC4-3C7677D01A7F</string>
+				<string>0D2036A0-38A9-4D4F-AA1F-7F447EA82803</string>
 				<key>UUID</key>
-				<string>57343E83-474F-48B2-9041-265A5BABB9C4</string>
+				<string>DDFAEF6C-86A7-4830-9736-C40A984403C9</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -174,7 +174,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:253.000000</string>
+				<string>379.500000:253.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
