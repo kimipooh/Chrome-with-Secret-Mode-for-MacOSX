@@ -20,3 +20,12 @@ In case of Google Chrome with Reduce memory mode, the application only carries o
 The reduce memory mode reduces the Chrome memory by controlling the rendering process (Google Chrome Helper). In the mode, when you open a lot of tabs, some tabs might not display until current tab displays. If you want to fix it, please increase the number of renderer-process-limit by opening the tool using Automator application in Application folder and change the value & save it.
 
 このメモリ抑制モードは、レンダリングプロセス（Google Chrome Helper）を抑制することで使用メモリを減らします。このモードでは、沢山のタブを開いた場合、現在のタブが表示されるまでは、他のタブが表示されないかもしれません。このあたりを調整したければ、本ツールを、Automatorアプリ（アプリケーションフォルダ内）にて開いて、 renderer-process-limitの値を増やして保存してみてください。
+
+Google Chrome (process limitation).app and Google Chrome Canary (process limitation).app are "Google Chrome with Reduce memory mode" tool used by "Apple Script".
+You can use the number of process limitation on Apple Script Editor.
+Please open the script file by "Apple Script Editor". Default limitation number is 10.
+
+Google Chrome (process limitation).app と Google Chrome Canary (process limitation).appは、Apple Script で作成したメモリ抑制のためのツールです。
+Appleスクリプトエディタでこのファイルを開くと簡単に値を変更できます。デフォルトは10にしています。
+
+
