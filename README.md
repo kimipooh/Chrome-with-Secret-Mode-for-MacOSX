@@ -11,9 +11,9 @@ Therefore, if you don't install Google Chrome or Google Chrome Canary applicatio
 
 したがって、Google ChromeやGoogle Chrome Canaryがインストールされていないと動作しません。
 
-## Components 
+## Components （構成）
 
-### Google Chrome with Reduce memory mode
+### Google Chrome with Reduce memory mode （メモリ抑制）
 
 Option --renderer-process-limit=3
 
@@ -22,7 +22,7 @@ Option --renderer-process-limit=3
 - Google Chrome (Reduce Memory).app (Automator)
 - Google Chrome Canary (Reduce Memory) (Automator)
 
-### Google Chrome with Secret mode
+### Google Chrome with Secret mode （シークレットモード）
 
 Option  --incognito
 
@@ -30,7 +30,7 @@ Option  --incognito
 - Google Chrome Canary (Run as Secret Mode) (Automator)
 
 
-### Restriction tls mode
+### Restriction tls mode （TLSバージョン制限）
 
 Option --ssl-version-min="tls1.1" or --ssl-version-min="tls1.2" 
 
@@ -39,12 +39,12 @@ Option --ssl-version-min="tls1.1" or --ssl-version-min="tls1.2"
 - Google Chrome Canary (tls1.0 disabled).app  (Automator)
 - Google Chrome Canary (tls1.1 or prev disabled).app (Automator)
 
-## Google Chrome with Secret mode
+## Google Chrome with Secret mode （シークレットモードモード）
 In case of Google Chrome with Secret mode, this application only carries out 'open -n -a "/Applications/Google Chrome.app" --args --incognito' or 'open -n -a "/Applications/Google Chrome Canary.app" --args --incognito'.
 
 このモードは、起動時のオプションとして、 --incognito を追加します。
 
-## Google Chrome with Reduce memory mode
+## Google Chrome with Reduce memory mode（メモリ抑制）
 In case of Google Chrome with Reduce memory mode, the application only carries out 'open -n -a "/Applications/Google Chrome.app" --args --renderer-process-limit=3' or 'open -n -a "/Applications/Google Chrome Canary.app" --args --renderer-process-limit=3'.
 
 このモードは、起動時のオプションとして、 --renderer-process-limit=1 を追加します。
@@ -60,7 +60,7 @@ Please open the script file by "Apple Script Editor". Default limitation number 
 Google Chrome (process limitation).app と Google Chrome Canary (process limitation).appは、Apple Script で作成したメモリ抑制のためのツールです。
 Appleスクリプトエディタでこのファイルを開くと簡単に値を変更できます。デフォルトは3にしています。
 
-## Restriction tls mode
+## Restriction tls mode（TLSバージョン制限）
 Chrome 81 (early 2020) will be disabled tls1.0 and 1.1, so we need to check our web sites using a web browser which disables tls1.0 and 1.1. Chrome can set tls restriction mode using option "--ssl-version-min".
 Reference: https://www.chromestatus.com/feature/5654791610957824
 https://peter.sh/experiments/chromium-command-line-switches/
