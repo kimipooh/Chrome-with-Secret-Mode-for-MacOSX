@@ -12,31 +12,32 @@ Therefore, if you don't install Google Chrome or Google Chrome Canary applicatio
 したがって、Google ChromeやGoogle Chrome Canaryがインストールされていないと動作しません。
 
 ## Components 
-Google Chrome with Reduce memory mode
 
-Option --renderer-process-limit=1
+### Google Chrome with Reduce memory mode
+
+Option --renderer-process-limit=3
 
 - Google Chrome (process limication).app (Apple Script)
 - Google Chrome Canary (process limication) (Apple Script)
 - Google Chrome (Reduce Memory).app (Automator)
 - Google Chrome Canary (Reduce Memory) (Automator)
 
-Google Chrome with Secret mode
+### Google Chrome with Secret mode
 
 Option  --incognito
 
 - Google Chrome (Run as Secret Mode).app (Automator)
 - Google Chrome Canary (Run as Secret Mode) (Automator)
 
-Option. --ssl-version-min="tls1.1"
 
-Restriction tls mode
+### Restriction tls mode
+
+Option --ssl-version-min="tls1.1" or --ssl-version-min="tls1.2" 
 
 - Google Chrome (tls1.0 disabled).app  (Automator)
 - Google Chrome (tls1.1 or prev disabled).app (Automator)
 - Google Chrome Canary (tls1.0 disabled).app  (Automator)
 - Google Chrome Canary (tls1.1 or prev disabled).app (Automator)
-
 
 ## Google Chrome with Secret mode
 In case of Google Chrome with Secret mode, this application only carries out 'open -n -a "/Applications/Google Chrome.app" --args --incognito' or 'open -n -a "/Applications/Google Chrome Canary.app" --args --incognito'.
