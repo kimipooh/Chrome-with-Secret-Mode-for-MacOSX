@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>419</string>
+	<string>444.42</string>
 	<key>AMApplicationVersion</key>
-	<string>2.6</string>
+	<string>2.9</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>open -n -a "Google Chrome" --args --renderer-process-limit=1</string>
+					<string>open -n -a "/Applications/Google Chrome.app" --args --renderer-process-limit=3</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -172,9 +172,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>379.500000:253.000000</string>
+				<string>379.500000:252.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
